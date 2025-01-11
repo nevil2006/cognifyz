@@ -81,10 +81,25 @@ Average price range.
 Number of restaurants per city.
 Output:
 Save the map as an HTML file.
+
+How to Run the Project
+Prerequisites
+1) Python 3.x
+2) Necessary libraries:
+
+pip install pandas scikit-learn folium
+
+Steps to Run:
+Clone or download the repository.
+Ensure that the dataset is available and loaded into a DataFrame.
+Execute each task script:
+Task 1: Restaurant Ratings Prediction
+Task 2: Restaurant Recommendation System
+Task 3: Cuisine Classification
+Task 4: Geographical Analysis and Restaurant Map Creation
+For Task 4, open the generated restaurant_map.html file in any browser to view the interactive map
 Print a table summarizing the aggregated data by city.
 Libraries Used
 folium for interactive map creation.
 pandas for data manipulation.
-Output
-An interactive restaurant map (saved as restaurant_map.html).
-A table displaying aggregated metrics (average ratings, price ranges, and restaurant count) by city.
+
